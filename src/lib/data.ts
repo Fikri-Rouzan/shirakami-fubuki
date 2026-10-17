@@ -1,12 +1,6 @@
 import type { ComponentType } from "svelte";
 import { Cpu, Languages, Shield } from "lucide-svelte";
 
-export interface NavLink {
-  label: string;
-  href: string;
-  mobileLabel?: string;
-}
-
 export interface FeatureItem {
   icon: ComponentType;
   title: string;
@@ -25,12 +19,6 @@ export interface DocumentSection {
   items?: string[];
   codeHighlight?: string;
 }
-
-export const NAV_LINKS: NavLink[] = [
-  { label: "Home", href: "/" },
-  { label: "Terms", href: "/terms", mobileLabel: "Terms of Service" },
-  { label: "Privacy", href: "/privacy", mobileLabel: "Privacy Policy" },
-];
 
 export const FEATURES: FeatureItem[] = [
   {

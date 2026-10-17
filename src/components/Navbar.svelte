@@ -3,7 +3,7 @@
   import { link } from "svelte-spa-router";
   import { Menu, X, ExternalLink } from "lucide-svelte";
   import { APP_CONFIG } from "../lib/config";
-  import { NAV_LINKS } from "../lib/data";
+  import { NAV_LINKS } from "../lib/routes";
 
   let isMobileMenuOpen = false;
 
@@ -90,7 +90,7 @@
             ? 'text-fubuki-blue'
             : 'text-fubuki-text'}"
         >
-          {nav.label}
+          {nav.mobileLabel}
         </a>
       {/each}
 

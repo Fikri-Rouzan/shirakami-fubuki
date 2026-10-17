@@ -29,7 +29,7 @@
           <ExternalLink size={18} />
         </a>
         <a
-          href="/terms"
+          href="/terms-of-service"
           use:link
           class="bg-fubuki-card hover:bg-fubuki-card-hover text-fubuki-text font-semibold px-6 py-3 rounded-xl transition-all border border-fubuki-border inline-flex items-center gap-2"
         >
